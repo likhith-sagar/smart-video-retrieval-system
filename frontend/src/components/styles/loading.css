@@ -1,0 +1,17 @@
+.loading-screen{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background: #fff;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading-screen .text{
+    font-size: 14px;
+    color: #777;
+}

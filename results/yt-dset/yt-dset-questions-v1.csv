@@ -1,0 +1,350 @@
+Video_ID,Question,Answer,Start_timestamp,End_timestamp
+101,What is Kubernetes?,kubernetes is an open source container orchestration framework which was originally developed by google so on the foundation it manages containers be docker containers or from some other technology which basically means that kubernetes helps you manage applications that are made up of hundreds or maybe thousands of containers and it helps you manage them in different environments like physical machines virtual machines or cloud environments or even hybrid deployment environments,64,98
+101,Who developed Kubernetes?,Google,69,70
+101,Who created Kubernetes?,Google,69,70
+101,What is the job of controller manager in Kubernetes?,controller manager which basically keeps an overview of what's happening in the cluster whether something needs to be repaired or maybe if a container died and it needs to be restarted etc,321,332
+101,What is the job of scheduler in Kubernetes?,scheduler which is basically responsible for scheduling containers on different nodes based on the workload and the available server resources on each node so it's an intelligent process that decides on which worker node the next container should be scheduled on based on the available resources on those worker notes and the load that that container meets,336,360
+101,How does Kubernetes help?,kubernetes helps you manage applications that are made up of hundreds or maybe thousands of containers and it helps you manage them in different environments like physical machines virtual machines or cloud environments or even hybrid deployment environments,79,98
+101,what are the different deployment environments where we can use Kubernetes?,physical machines virtual machines or cloud environments or even hybrid deployment environments,92,98
+101,what caused increased usage of container technologies?,the rise of microservices caused an increased usage of container technologies,110,115
+101,what is the need of container orchestration tool?,managing those loads of containers across multiple environments using scripts and self-made tools can be really complex and sometimes even impossible so that specific scenario actually caused the need for having container orchestration technologies,135,153
+101,why is a container orchestration technology is needed?,managing those loads of containers across multiple environments using scripts and self-made tools can be really complex and sometimes even impossible so that specific scenario actually caused the need for having container orchestration technologies,135,153
+101,what is the need of container orchestration technologies?,managing those loads of containers across multiple environments using scripts and self-made tools can be really complex and sometimes even impossible so that specific scenario actually caused the need for having container orchestration technologies,135,153
+101,what are the features of a container orchestration tool?,one is high availability in simple words high availability means that the application has no downtime so it's always accessible by the users a second one is scalability which means that application has a high performance it loads fast and users have a very high response rates from the application and the third one is disaster recovery which basically means that if an infrastructure has some problems like data is lost or the server's explode or something bad happens with the server center the infrastructure has to have some kind of mechanism to pick up the data and to restore it to the latest state so that application doesn't actually lose any data and the containerized application can run from the latest stayed after the recovery and all of these are functionalities that container orchestration technologies like kubernetes offer,162,219
+101,what are the features of Kubernetes?,one is high availability in simple words high availability means that the application has no downtime so it's always accessible by the users a second one is scalability which means that application has a high performance it loads fast and users have a very high response rates from the application and the third one is disaster recovery which basically means that if an infrastructure has some problems like data is lost or the server's explode or something bad happens with the server center the infrastructure has to have some kind of mechanism to pick up the data and to restore it to the latest state so that application doesn't actually lose any data and the containerized application can run from the latest stayed after the recovery and all of these are functionalities that container orchestration technologies like kubernetes offer,162,219
+101,what are the functionalities of Kubernetes?,one is high availability in simple words high availability means that the application has no downtime so it's always accessible by the users a second one is scalability which means that application has a high performance it loads fast and users have a very high response rates from the application and the third one is disaster recovery which basically means that if an infrastructure has some problems like data is lost or the server's explode or something bad happens with the server center the infrastructure has to have some kind of mechanism to pick up the data and to restore it to the latest state so that application doesn't actually lose any data and the containerized application can run from the latest stayed after the recovery and all of these are functionalities that container orchestration technologies like kubernetes offer,162,219
+101,How is Kubernetes architecture?,kubernetes basic architecture actually look like the kubernetes cluster is made up with at least one master node and then connected to it you have a couple of worker nodes,225,235
+101,What is a kubelet?,kubelet is actually a kubernetes process that makes it possible for the cluster to talk to each other to communicate to each other and actually execute some tasks on those nodes like running application processes,240,254
+101,What is an API Server?,an API server is actually the entry point to the kubernetes cluster,296,300
+101,What is etcd?,etcd key value storage which basically holds at any time the current state of the kubernetes cluster,365,373
+101,How is backup and recovery ensured in Kubernetes?,backup and restore that we mentioned previously is actually made from these etcd snapshots because you can recover the whole cluster state using that etcd snapshot,382,394
+101,What is virtual network in Kubernetes?,virtual network actually turns all the nodes inside of the cluster into one powerful machine that has the sum of all the resources of individual nodes,410,423
+101,What is a pod in Kubernetes?,pod is the smallest unit that you as a kubernetes user will configure and interact with and pod is basically a wrapper of a container,493,507
+101,How does pods communicate with each other?,virtual network dispense the kubernetes cluster so what that does is that it assigns each pod its own IP address so each pod is its own self containing server with its own IP address and the way that they can communicate with each other is using that internal IP addresses,549,572
+101,how does communication of pods happen in Kubernetes?,virtual network dispense the kubernetes cluster so what that does is that it assigns each pod its own IP address so each pod is its own self containing server with its own IP address and the way that they can communicate with each other is using that internal IP addresses,549,572
+101,What is the role of virtual network in the communication among pods?,virtual network dispense the kubernetes cluster so what that does is that it assigns each pod its own IP address so each pod is its own self containing server with its own IP address and the way that they can communicate with each other is using that internal IP addresses,549,572
+101,what is service in Kubernetes?,an alternative or a substitute to those IP addresses so instead of having this dynamic IP addresses their services sitting in front of each pod,650,665
+102,What is meant by software?,software is a collection of instructions data or computer programs that are used to run machines and carry out particular activities,59,66
+102,What is SDLC?,sdlc stands for software development lifecycle it outlines the numerous steps needed in creating software to produce a high quality end product,82,92
+102,Why is software lifecycle model is important?,it is impossible to detect the entry and exit criteria for a stage without a software lifecycle model it becomes difficult for software project managers to keep track of the project's development without software lifecycle,143,157
+102,What are the steps involved in SDLC?,firstly we have planning and requirement analysis then we have specifying the needs following which we have creating or designing the software then project development testing deployment and maintenance,161,174
+102,What are the steps involved in developing a software?,firstly we have planning and requirement analysis then we have specifying the needs following which we have creating or designing the software then project development testing deployment and maintenance,161,174
+102,What are software development steps?,firstly we have planning and requirement analysis then we have specifying the needs following which we have creating or designing the software then project development testing deployment and maintenance,161,174
+102,What is requirement analysis?,the level of sdlc that is most crucial and essential is requirement analysis with input from all the stakeholders domain experts and smes in the industry the senior team members carry it out,182,195
+102,What is planning and requirement analysis?,the level of sdlc that is most crucial and essential is requirement analysis with input from all the stakeholders domain experts and smes in the industry the senior team members carry it out,182,195
+102,What is the first step in software development?,firstly we have planning and requirement analysis,161,163
+102,What is the first step in software development lifecycle?,firstly we have planning and requirement analysis,161,163
+102,what is the second second step in software development?,specifying the needs,262,264
+102,How many SDLC models are there?,namely there are seven,380,382
+102,What are the different SDLC models?,first one is waterfall model then we have v-shaped prototype spiral iterative incremental big bang and lastly the agile model,382,392
+102,What are the advantages of waterfall model?,waterfall paradigm is an understandably straightforward one in which all steps are carried out sequentially each phase's deliverables are well specified which prevents complexity and makes the project simple to manage,483,496
+102,What are the disadvantages of waterfall model?,the waterfall approach requires a lot of time and cannot be utilized for projects with a short lifespan because a new phase cannot be started until the current phase is finished this model expects the requirement to be clear in the requirement analysis phase itself and any change in the latest stages would result in higher costs as the changes would be required in all the phases as a result it cannot be used for projects with uncertain requirements or whether requirements keep changing,498,529
+102,Where is acceptance testing carried out?,acceptance testing is carried out in the customer's environment,650,654
+102,What is acceptance testing?,testing acceptance testing is carried out in the customer's environment and is connected to the requirement analysis process,650,658
+102,What is big bang model?,the big bang model has no established process input and output consists of money and labor and the result is a developed good that may or may not be what the client requires,1029,1041
+102,What is agile model?,incremental and iterative models are combined to create the age oil paradigm this paradigm emphasizes flexibility throughout product development more so than requirements,1089,1099
+103,What is the difference between the docker and a virtual machine?,on the docker side what you'll see as a big difference is that the guest OS for each container has been eliminated docker is inherently more lightweight but provides the same functionality as a virtual machine,58,73
+103,What is the difference between a virtual machine and docker?,on the docker side what you'll see as a big difference is that the guest OS for each container has been eliminated docker is inherently more lightweight but provides the same functionality as a virtual machine,58,73
+103,What are the advantages of docker over a virtual machine?,first of all a virtual machine occupies a lot more memory space on the host machine in contrast docker occupies significantly less memory space the boot up time between both is very different docker just boots up faster the performance of the docker environment is actually better and more consistent than the virtual machine docker is also very easy to set up and very easy to scale the efficiencies therefore a much higher with a docker environment versus a virtual machine environment and you'll find it is easier to port docker across multiple platforms than a virtual machine finally the space allocation between docker and a virtual machine is significant when you don't have to include the guest you're eliminating a significant amount of space and the dock environment is just inherently smaller,78,140
+103,What are the pros of docker over a virtual machine?,first of all a virtual machine occupies a lot more memory space on the host machine in contrast docker occupies significantly less memory space the boot up time between both is very different docker just boots up faster the performance of the docker environment is actually better and more consistent than the virtual machine docker is also very easy to set up and very easy to scale the efficiencies therefore a much higher with a docker environment versus a virtual machine environment and you'll find it is easier to port docker across multiple platforms than a virtual machine finally the space allocation between docker and a virtual machine is significant when you don't have to include the guest you're eliminating a significant amount of space and the dock environment is just inherently smaller,78,140
+103,Compare pros and cons of docker and a virtual machine.,first of all a virtual machine occupies a lot more memory space on the host machine in contrast docker occupies significantly less memory space the boot up time between both is very different docker just boots up faster the performance of the docker environment is actually better and more consistent than the virtual machine docker is also very easy to set up and very easy to scale the efficiencies therefore a much higher with a docker environment versus a virtual machine environment and you'll find it is easier to port docker across multiple platforms than a virtual machine finally the space allocation between docker and a virtual machine is significant when you don't have to include the guest you're eliminating a significant amount of space and the dock environment is just inherently smaller,78,140
+103,What is DevOps?,DevOps is a collaboration between the development team the operation team allowing you to continuously deliver solutions and applications and services that both delight and improve the efficiency of your customers,170,182
+103,What tools are used for planning in DevOps?,planning and codebase we use tools like GIT and Jira,219,222
+103,What tools are used for planning and codebase in DevOps?,planning and codebase we use tools like GIT and Jira,219,222
+103,Which tool is used for testing?,testing we use selenium,225,228
+103,Which tool is used for monitoring the environment in DevOps?,nagios is used to monitor the entire environment,238,243
+103,What is docker?,docker is a tool which is used to automate the container so the application can work efficiently in different environments,246,257
+103,What is the use of docker?,docker is a tool which is used to automate the container so the application can work efficiently in different environments,246,257
+103,What is a container in docker?,container is a standalone executable package which includes applications and their dependencies,591,598
+103,How is the architecture of docker?,docker has a client-server relationship there is a client installed on the hardware there is a client that contains the docker product and then there is a server which controls how that docker client is created,399,413
+103,Explain the architecture of docker.,docker has a client-server relationship there is a client installed on the hardware there is a client that contains the docker product and then there is a server which controls how that docker client is created,399,413
+103,How is a docker image built?,docker image is built using a file called the docker file,546,550
+103,How is a docker image created?,docker image is built using a file called the docker file,546,550
+103,What is a docker container?,container is a standalone executable package which includes applications and their dependencies,591,598
+103,How to connect with docker registry?,the way in which you connect with the docker registry is through simple pull and push commands that you run through terminal window to be able to get the latest information,730,740
+103,How to communicate with docker registry?,the way in which you connect with the docker registry is through simple pull and push commands that you run through terminal window to be able to get the latest information,730,740
+104,What is a port?,a port is not a physical connection it's a logical connection that is used by programs and services to exchange information,5,13
+104,What is port in computer networks?,a port is not a physical connection it's a logical connection that is used by programs and services to exchange information,5,13
+104,What does a port determines?,"It specifically determines which program or service 
+on a computer or server that is going to be used",13,20
+104,What is the range of port numbers?,The number ranges from 0 - 65535,30,34
+104,What are the port numbers used for web pages?,port 80 and 443 which are used for web pages,36,40
+104,Which ports are used for web pages?,port 80 and 443 which are used for web pages,36,40
+104,What is Netstat?,Netstat is short for network statistics and it's a command line tool that is used to display the current network connections and port activity on your computer,188,197
+104,How to use Netstat?,"at a command prompt you type in netstat and then 
+we're going to also use a -n sub command so we can see the actual port number and then we'll press enter",205,216
+104,What is FTP?,FTP is a standard protocol that is used to transfer files between computers and servers over a network,251,258
+104,Which port is used for file transfering?,it uses port number 21,258,261
+104,Which port does FTP use?,it uses port number 21,258,261
+104,What are registered ports?,Port numbers from 1024 - 49151 are called user or registered ports. These are ports that can be registered by companies and developers for a particular service,338,350
+105,What happens if a hacker gets any information?,legal ramifications to the business loss of company secrets leakage of information uh maybe industrial espionage which basically means a competitor is trying to analyze a company a company's secrets and trying to gain access to their data or they could hold the company for ransom and ask them for money or sell it to criminals who can further dilute the information or misuse that information for the criminal activities,52,78
+105,What is cyber security?,cyber security by itself is a process a design and architecture created to protect networks and devices from attacks damage or unauthorized access,111,121
+105,What are the three main pillars of cyber security?,confidentiality integrity and availability triad also known as cia,211,216
+105,What is cyber crime?,cyber crime is any criminal activity or any unauthorized activity that would involve the usage of any computing device which would result as a security incident at the victim's end,333,345
+105,Who are black hat hackers?,individuals with extraordinary competing skills resorting to malicious or destructive activities,696,701
+105,Who are grey hat hackers?,individuals who work both offensively and defensively,710,713
+105,What work does a grey hat hacker do?,they could work as black hat hackers with malicious intent and try to harm some organization while on the other hand they would also try to work as a security analyst and try to enhance the security posture of an organization,714,728
+105,Who are white hat hackers?,an individual who professes the same skills as a black hat hacker probably uses the same tools has the same kind of knowledge but the intent is different they're going to use them for defensive purposes uh there's no malicious intent,735,747
+105,How do white hat hackers work?,they act with author authorization from the organization and they will try to detect any flaws and try to plug out those flaws so that black hat hackers would not be able to misuse those flaws to gain access,747,760
+105,What is a common cyber attack?,the most common attack ever seen in today's world is a denial of service attack,909,913
+105,What is denial of service attack?,this is where the hacker tries to consume the resources of the victim server in such a way that there are no resources available for legitimate users to connect to the server and conduct their business,913,925
+105,How does denial of service attack work?,this is where the hacker tries to consume the resources of the victim server in such a way that there are no resources available for legitimate users to connect to the server and conduct their business,913,925
+105,What is a malware attack?,there would be a malicious software that would deliver a trojan virus or a worm to the victim thus infecting the victim's machine and rendering it useless,928,938
+105,What is SQL injection attack?,attackers will target your database try to send in malicious queries which will compromise your database and the data within,1010,1017
+105,When was the biggest bank hack happened?,2007,1110,1110
+105,What happened in the biggest bank hack?,swedish bank nadia they recorded at least a million dollars being stolen in three months from 250 accounts,1115,1123
+105,Who created Morris worm?,robert morris uh he's an american computer scientist and entrepreneur he's best known for creating what is called the morris worm,1150,1159
+105,Who created Melissa virus?,david smith he created the melisa virus,1203,1206
+105,What is Melissa virus?,one of the most dynamic viruses known around march 1999 that's when this happened this virus was released and this was a macro based virus which affected microsoft world and outlook based files,1208,1221
+105,What is authentication?,authentication is the part where you're going to identify a person authorize that person for some access controls and authenticate that person to ensure that the person is the same person who they claim to be,1293,1304
+105,Why is antivirus needed?,to protect yourself from viruses worms trojans essentially malwares there needs to be a software that need that's installed on your computer that is going to watch out for them,1411,1420
+105,Who is a cyber security expert?,a cyber security expert is an individual employed by an organization to protect their infrastructure,1616,1622
+105,What are the responsibilities of a cyber security expert?,this person is responsible to identify potential flaws identify what threats the organization faces and then streamline or create or design or architect methodology which is going to protect all the assets that the organization has,1624,1639
+106,What are primitive data types?,variables that store single simple values,90,93
+106,What are the examples of primitive data types?,examples of such primitive types are the byte int float double boolean and char,94,102
+106,What are the drawbacks of primitive data types?,as programs became larger and more complex primitive data types weren't really cutting it anymore programmers began to want to group variables of similar type together,124,135
+106,What is structure?,structures allow the programmer to store data of different types together,246,251
+106,How is a structure different from array?,structures vary from arrays in that structures allow the programmer to store data of different types together for instance whereas an array would allow you to store only int or only strings using a structure you could store int and strings together along with other data type,244,262
+106,What are objects?,objects are instances of a class,324,326
+106,What is a class?,class is basically a template for an object,327,330
+106,What are the principles of object oriented programming?,encapsulation abstraction inheritance and polymorphism,451,457
+106,What are the four main princliples of object oriented programming?,encapsulation abstraction inheritance and polymorphism,451,457
+106,What are the four main principles of OOPS?,encapsulation abstraction inheritance and polymorphism,451,457
+106,What is encapsulation?,encapsulation refers to bundling data along with methods that can operate on that data within a class,467,475
+106,What is abstraction?,abstraction refers to the idea of only showing essential details and hiding everything else,776,781
+106,What is inheritance?,inheritance is the principle that allows you to derive classes from other classes,1079,1084
+106,What are three types of access modifiers?,public private and protected,1248,1251
+106,What are three main access modifiers?,public private and protected,1248,1251
+106,What are different access modifiers?,public private and protected,1248,1251
+107,How is cloud cost efficient than on premise?,with cloud the billing model is pay as you go type meaning we use less and pay less and we use more and we pay less per unit on the other hand in on premises we can't expect that we pay everything upfront and there is an additional operating cost,120,137
+107,What is the billing model in cloud?,with cloud the billing model is pay as you go type,120,124
+107,How is data security in cloud?,in the cloud the security standards are high due to the investments the providers have done to secure the data and to meet the compliance,182,191
+107,Why is the data security low in on premises setup?,due to the cost involved in procuring the hardware and software to provide the security,177,182
+107,Why is the data security poor in on premise setups?,due to the cost involved in procuring the hardware and software to provide the security,177,182
+107,Why is data security poor in on premises?,due to the cost involved in procuring the hardware and software to provide the security,177,182
+107,What is cloud computing?,cloud computing is the ability to deliver on-demand computing service over the internet and that too on a pay-as-you-go basis,334,342
+107,How is cloud computing categorized?,based on two wide categories one being a deployment model and the other one being service model,382,388
+107,How are the types of cloud computing categorized?,based on two wide categories one being a deployment model and the other one being service model,382,388
+107,How are the different types of cloud computing categorized?,based on two wide categories one being a deployment model and the other one being service model,382,388
+107,On what basis the types of cloud computing are categorized?,based on two wide categories one being a deployment model and the other one being service model,382,388
+107,What are the types of deployment model?,deployment model is categorized into three types first one is public and then private and then hybrid cloud,391,397
+107,What are the categories of deployment model?,deployment model is categorized into three types first one is public and then private and then hybrid cloud,391,397
+107,What are the categories of cloud computing based on the deployment model?,first one is public and then private and then hybrid cloud,394,397
+107,What are the types of cloud based on the deployment model?,first one is public and then private and then hybrid cloud,394,397
+107,Give examples of cloud providers.,aws microsoft azure ibm's blue cloud and sun cloud,498,502
+107,Who are major players in cloud providers?,aws microsoft azure ibm's blue cloud and sun cloud,498,502
+107,What are the categories of cloud based on service model?,infrastructure as a service iaas or platform as a service paas or software as a service saas,552,560
+107,What is AWS?,amazon web services aws is a cloud computing service provided by amazon,799,805
+107,What does AWS provide?,it provides a mix of infrastructure as a service iaas platform as a service paas and package software as a service called saas offerings,805,813
+107,What is the use of amazon s3?,using amazon s3 we can store and retrieve any amount of data at any time on the web,1210,1217
+107,What is amazon s3?,a simple storage service provided by aws,1204,1207
+107,What is aws s3?,a simple storage service provided by aws,1204,1207
+107,Name the cloud service from google.,google cloud platform,871,873
+201,What is recommender system?,Automated information filtering system to filter some entities composed of machine learning and AI algorithms which predicts what the customer wants to see.,78,90
+201,Whis is the most potent marketing tool?,Recommendation System,74,77
+201,What are the entities that use recommendation system?,"Ads, movies, TV shows, songs and so on.",91,102
+201,What are the problems addressed by the recommender system?,"Helps us solve the Information Overload problem, helps us narrow down the choices, helps businesses sell more relevant content that might attract users and make them stick forever.",177,247
+201,Why is the recommender system built?,"Helps us solve the Information Overload problem, helps us narrow down the choices, helps businesses sell more relevant content that might attract users and make them stick forever.",177,247
+201,What are the advantages of recommender system from users' perspective?,Helps save valuable time and showcases what interests the user.,247,255
+201,What are the advantages of recommender system from business' perspective?,Helps to understand better what the user wants and might want in the future.,255,262
+201,How does the recommender engine work?,It will ask you what you prefer or see what kind of content you are regularly watching.,273,314
+201,Explain the steps involved in the working of the recommender engine.,It will ask you what you prefer or see what kind of content you are regularly watching.,273,314
+201,What is Cold Start problem?,"Where the system has no idea of you are and have no profile for you and asks you to put in something like what movies you like, what are your food choices, what singer you love the most, what genre grabs your attention because how will they know otherwise.",349,368
+201,What is the problem in which the system has no idea about the user and has no profile or information of their likes or dislikes in a recommender system?,Cold Start problem,349,368
+201,What are the three factors the youtube recommendation mainly depends on?,"Watchtime, engagement and topic relevance.",372,385
+201,"Which filtering method majorly focuses on understanding and analyzing the customers' behaviour, preferences or activities to suggest reliable product or services?",Collaborative filtering,447,461
+201,What is collaborative filtering?,"Which majorly focuses on understanding and analyzing the customers' behaviour, preferences or activities to suggest reliable product or services.",447,461
+201,Which is the biggest example of collaborative filtering?,Amazon is one of the biggest examples of collaborative filtering as it collects information from distinct sources.,469,476
+201,What are techniques involved in collaborative filtering?,"Non-Probabilistic algorithm, user-based nearest neighbour, item-based nearest neighbour, reducing dimensionality, Probabilistic algorithm, Bayesian-Network model, EM Algorithm, Content-Based System.",477,495
+201,What is Content-Based system?,"Deals with the idea of if you like a particular product, you will like the similar products too. The machine learning suggests product that are similar to the users' history.",496,509
+201,Which recommender system suggests products which are similar to the users' history?,Content-Based System,496,509
+201,What is the scince behind Netflix?,"Netflix estimates your action based on your interaction with their services like search history or most recently watched shows, other users who have similar taste, information about the title such as the genre, actors and categories.",547,592
+201,What are the three significant factors based upon which we make choices on Amazon?,"Events, Ratings and Filtering.",656,714
+201,What are the types of filtering Amazon reccomendation system uses?,"Collaborative, User-Based and Hybrid Approach Filtering.",716,745
+202,What is the subset of machine learning?,Deep Learning,26,29
+202,Why has AI gained popularity recently?,"The reason is earlier we had very small amount of data.The data we had was not enough to predict the accurate result, but now there's a tremendous increase in the amount of data.",54,66
+202,Why was AI not popular in the past when it actually was invented?,"The reason is earlier we had very small amount of data.The data we had was not enough to predict the accurate result, but now there's a tremendous increase in the amount of data.",54,66
+202,What percent of enterprise is expected to implement AI over the next twelve months?,70,88,94
+202,What is AI?,Technique that enables the machines to act like humans by replicating the behaviou and nature. With AI it is possible for the machine to learn from experience.,103,113
+202,What are the examples of AI in our day-to-day lives?,"Apple series, just playing computer, Tesla self driving car and many more.",165,171
+202,What are the issues that led to the existence of machine learning?,"In the field of statistics, the problem was how to efficiently train large complex models. In the field of computer science and AI, the problem was how to train more robust version of AI system while in the case of neuroscience, the problem faced by researchers was how to design operation model of the brain.",195,215
+202,Which is the subset of AI?,Machine Learning.,195,215
+202,What is machine learning?,Machine learning is a subset of AI which enables the computer to act and make data-driven decisions to carry out a certain task.,236,244
+202,What increases the performance of the model?,"Decreasing the error or the difference between the actual and estimated value increases the performance of the model. Further on the more data points we collect, the better our model will become. We can also improve our model by adding more variables and creating different production lines for them.",297,313
+201,Can increasing the data points improve the performance of the model?,"The more data points we collect, the better our model will become.",305,307
+202,"If deep learning is compared to rocket engine, then what is the fuel of DL?",Huge amount of data that we feed to the algorithms.,332,338
+202,What is deep learning?,This field is a particular kind of machine learning that is inspired by the functionality of our brain cells called neurons which led to the concept of artificial neural network.,346,355
+202,What is the inspiration of artificial neural networks concept?,The functionality of the our brain cells called neurons which led to the concept of artificial neural network.,346,355
+202,Why is the neural network system called a black box?,Because no one actually knows what happens inside a neural network and why it works so well.,375,382
+202,Why are deep learning algorithms heavily dependent on high-end machines?,"This is because the requirement of deep learning algorithm include gpus which is an integral part of its working. The Deep Learning algorithm requires gpus as they do a large amount of matrix multiplication operations, and these operations can only be efficiently optimized using a GPU as it is built for this purpose.",534,561
+202,Why does deep learning algoritms require GPUs?,"The Deep Learning algorithm requires gpus as they do a large amount of matrix multiplication operations, and these operations can only be efficiently optimized using a GPU as it is built for this purpose.",549,561
+202,What is feature engineering?,Feature engineering is a process of putting the domain knowledge to reduce the complexity of the data and make patterns more visible to learning algorithms.,565,574
+202,What is the problem solving approach in machine learning?,"We first break down the problem into different sub parts, solve them individually and then finally combine them to get the desired result.",639,652
+202,Which among the Deep learning and machine learning take more time for training and why?,Deep Learning algorithm takes a long time to train as there's so many parameter that makes the training longer than usual. The training might even last for two weeks or more than that if you are training from scratch.,731,745
+202,Why does Deep learning algorithms take more time to train?,Deep Learning algorithm takes a long time to train as there's so many parameter that makes the training longer than usual. The training might even last for two weeks or more than that if you are training from scratch.,731,745
+203,"What is the one thing that underpins the revolutionary technologies like AI, ML, internet of things?",The answer is data. From social media to the iot devices we are generating immeasurable data.,20,31
+203,Define data science.,Process of using data to find solutions or to predict outcomes for a problem statement.,60,66
+203,What is the process of using data to find solutions or to predict outcomes for a problem statement called?,Data science.,60,66
+203,How does Data Science used in the Surge Pricing algorithm of Uber benefit them?,"The Surge Pricing algorithm ensures that their passengers always get a ride when they need one even at cost of inflated prices.Uber implements data science to find out which neighbourhood will be the busiest so that it can activate search pricing to get more drivers. In this manner, Uber maximizes the number of rides it can provide and hence benefit from this.",98,123
+203,What is the beginning step of a data science process?,Understanding the business requirements or the problem you are trying to solve.,128,134
+203,What is the business requirement in Uber?,To build a dynamic pricing model that takes effect when a lot of people in the same area are requesting rides at the same time.,135,144
+203,What is the data collected by Uber?,"The weather, historical data, holidays, time, traffic, pickup and drop location.",147,156
+203,What is the problem of collecting unnecessary data?,It increases the complexity of the problem.,159,165
+203,Give an example of unnecessary data collected by Uber.,The location of cafes and restaurants nearby. Such data is not needed to analyze Uber search pricing.,166,178
+203,Is data pertaining to the location of cafes and restaurants relevant for Uber in any manner?,"No,such data is not needed to analyze Uber search pricing.",166,178
+203,Briefly describe the data exploration and analysis phase?,The data exploration stage is like the brain storming of the data analysis. This is where you understand the patterns in your data.,180,189
+203,Explain data modelling stage in Uber?,The data modelling stage includes building a machine learning problem that predicts the Uber search at a given time and location. This model is built by using all the insights and trends collected in the exploration stage. The model is trained by feeding a thousand of customer records so that it can predict the outcome more precisely.,193,213
+203,Describe the data validation stage in Uber?,"The model is tested when a new customer books a ride, the data of the new booking is compared with the historic data in order to check if there are any anamolies in the search prices or any false predictions. If any such anamolies are detected, a notification is sent to the data scientists at Uber who fix the issue. This is how Uber predicts the search price for a location and time.",215,239
+203,What is the final stage of data science?,Deployment and optimization,240,242
+203,Where is data science implemented and what are its applications?,Data science is implemented in e-commerce platforms like Amazon and Flipkart. It is also the logic behind Netflix's recommendation system. Its applications range from credit card fraud detection to self-driving cars and virtual assisstants such as Siri and Alexa.,259,282
+203,Name the e-commerce platforms where the data science is implemented.,Data science is implemented in e-commerce platforms like Amazon and Flipkart.,259,264
+203,What are the skills needed to become a data scientist?,"Must be skilled in statistics, expertise in programming languages like python, R is a must, good understanding of processes like data extraction, processing, wrangling and exploration, well versed with machine learning algorithms and how they work, deep learning, different big data processing frameworks like Hadoop, Spark and must know to visualize the data using tools like Tableu and power bi.",414,448
+203,What are the programming languages one needs to be expert in to become a data scientist?,"expertise in programming languages like python, R is a must",416,420
+203,Why should one become a data scientist?,"According to Linkendin's March 2019 survey, a data scientist is the most promising job role in the US and it stands at number one on glassdoor's best jobs of 2019.",365,377
+203,What is the average salary of a data scientist?,"The average salary ranges between a hundred thousand dollars to hundred and eighty two thousand dollars. Salary varies on your skills, level of expertise, geography and the company you work for.",397,410
+203,Briefly explain about one instance of use of data sciece at Apple.,"Apple used data science to build a watch that monitors an individual's health. This watch collects data such as the person's heart rate, sleep cycle, breathing rate, activity level, blood pressure, etc and keeps a record of these measures 24/7. The collected data is then processed and analyzed to build a model that predicts the risk of a heart attack.",336,358
+204,What is big data?,Big data is a term for collection of data sets so large and complex that it becomes difficult to process using on and database system tools or traditional data processing applications.,48,60
+204,What are the different types of data?,"Structured, relational, semi-structured and unstructured",90,97
+204,What is veracity in data?,Uncertainity and inconsistency in the data.,169,172
+204,What is the uncertainity and inconsistency in the data called?,Veracity,166,168
+204,What does AWS stand for?,"AWS stands for Amazon Web Services. AWS is a secure cloud platform offering compute, power, database storage, content delivery and other functionality to help business scale and grow.",179,182
+204,What does AWS offer?,"compute, power, database storage, content delivery and other functionality to help business scale and grow",184,192
+204,What is cloud?,Cloud is basically collection of computing resources which is your power supply hardware that you get access from anywhere.,194,203
+204,Which company's cloud service is called AWS?,AWS is the name of the cloud service from Amazon.,259,261
+204,Name the cloud service from Amazon.,AWS is the name of the cloud service from Amazon.,259,261
+204,Name the cloud service given by Microsoft.,Microsoft Azure.,250,254
+204,Which company's cloud service is known as Azure?,Microsoft,250,254
+204,Why is data storage a challenge?,"We are going to have bulk of data, so eventually we are going to run out of space hence making it difficult to store different types of data.",380,389
+204,What are the challenges in the data visualisation?,Challenges like how to create the reports and manage them.,405,417
+204,What are the AWS solution services for data ingestion problem?,There is a feature of Amazon finances like Amazon snowball which can easily manage the data ingestion problem.,422,429
+204,What are the AWS solution services for data pre-processing?,"Amazon EMR, Amazon Redshift",430,434
+204,What are the AWS solution services for data storage?,"Amazon S3, Amazon Loop",435,440
+204,What is the AWS solution for data visualization?,Quick Insight,442,445
+205,What is React?,React is a javascript library that is used to build user interface for web application.,52,58
+205,Name the javascript library that is used to build user interface for web application.,React is a javascript library that is used to build user interface for web application.,52,58
+205,Who developed react js?,"Jordan Walk, a software engineer working at Facebook.",59,63
+205,Which websites make use of react to build their UI?,"Netflix, Airbnb, Dropbox, etc.,",89,96
+205,Which component of MVC does react deal with?,"Since react is only a front-end library and not the whole framework, it only deals with the view component of the MVC or the model view controller architecture.",117,125
+205,Why does React only deals with the view component of the MVC?,"Since react is only a front-end library and not the whole framework, it only deals with the view component of the MVC or the model view controller architecture.",117,125
+205,What is the advantage of the components with respect to react?,Each time any data is added or updated react automatically updates the specific component whose state has actually changed. This saves the browser from the task of reloading the whole application to reflect the changes.,159,172
+205,What is Virtual DOM in React?,Virtual DOM is a node tree that lists the elements and their attributes and content as Objects and their properties.,217,225
+205,What is a node tree that lists the elements and their attributes and content as Objects and their properties called?,Virtual DOM is a node tree that lists the elements and their attributes and content as Objects and their properties.,217,225
+205,Explain the one-way data binding feature in React and its advantages.,"Unlike other frameworks, React follows unidirectional data flow for one-way data binding. The major advantage is that throughout the application, the data flows in a single direction which gives you a better control over it. Beacause of this application state is contained in specific stores and as a result rest of the components remain loosely coupled. This makes our application more flexible leading to increased efficiency.",323,352
+205,What is React Native?,React Native is a cross-platform mobile application development framework. It was also created by Facebook and it makes use of Javascript as the base language.,376,386
+205,Explain the react native's architecture dependency on the javascript.,"React native's architecture heavily relies on Javascript runtime environment architecture also known as Javascript Bridge. The Javascript code is compiled into native code at runtime. React Native uses flux architecture from Facebook. In short, react Native uses Javascript Bridge to communicate with the Native modules.",403,423
+205,What is the base feature of React Native?,Write once use everywhere is the base feature of React Native,438,442
+205,Which framework has its base feature as write once use everywhere?,Write once use everywhere is the base feature of React Native.,438,442
+205,Explain the live reload feature of React Native.,"The live reload feature is one of the best features that assists the developer while creating the application. Using live reload, you will be able to modify the code as well as see the modifications simultaneously.",491,502
+205,Name some of the applications of React Native.,"React Native is used in mobile applications such as Instagram, Facebook, ads manager, Bloomberg, Airbnb, Ubereats.",547,556
+205,Which is better between React and React Native with respect to template rendering.,Both React and React Native use jsx for the development of views or the templates but react is much better when it comes to styling your application's UI using CSS while React Native makes use of Native platform APIs.,591,605
+205,Which one is better among React and React Native?,The answer to which one is better among the two depends on the type of project that you are creating. If you are focusing on creating the UI for a web application then React is what you need but if your project is going to be a mobile application then you can go with React Native.,624,639
+205,Is React or React Native preferred for creating the UI for a web application?,If you are focusing on creating the UI for a web application then React is what you need,629,634
+206,Who is an ethical hacker?,An ethical hacker also known as a white hat hacker is a computer security specialist who works to improve the security of an organization and ethical hacker hacks into an organization with the owner's permission to find out vulnerabilities before any hacker with malicious intent can find them.,63,81
+206,What is the other name for ethical hacker?,An ethical hacker also known as a white hat hacker.,63,66
+206,What are the responsibilities of an ethical hacker?,"Firstly he is responsible for protecting the privacy of the organization that they are working for, secondly he has to transparently report all the vulnerabilities and weaknesses they find in the system to the relevant people, third he has to inform vendors and suppliers about any weakness found in their Hardware or software that is being used by the organization or business.
+
+
+
+
+",88,110
+206,In which fields should a person who is trying to pursue ethical hacking as their career get a Bachelor's degree in?,Anybody trying to pursue ethical hacking as a career should definitely try getting a bachelor's degree in a field related to Information Technology computer science or cyber security.,129,139
+206,How do most ethical hackers begin their career as?,Most ethical hackers begin their career as tech support Engineers.,174,178
+206,What is the experince one gains while working for a company?,"When you are working for a company you get hands-on experience with security tools that are used at an enterprise level also people learn to work under pressure and think creatively too.
+",188,198
+206,"Besides technical knowledge, what are the other qualities required to be an ethical hacker?","An ethical hacker must be a creative thinker, ethical hackers have to predict and prevent cracking activities and this requires an out of the box approach for solutions to general problems as you have to stay one step ahead of a black hat hacker. Ethical hackers also need to be able to work under pressure with immaculate judgment and last but not least an ethical Hackle must be proficient at communicating the problems he finds to the corresponding departments.
+
+",246,272
+206,How much does a CEH certified ethical hacker earn per annum according to pay scale?,According to pay scale a CEH certified ethical hacker earns around 88 000 per annum.,328,334
+206,Name a few noteworthy certifications other than CEH that prove your skill as an ethical hacker.,"There is the Sans giac certification, there's also the certified vulnerability assessor which is the CVA certification, there's also the C pen certification which stands for certified professional ethical hacker and also the cpte which stands for certified penetration Testing Engineer.
+",342,359
+206,What does CPTE stand for?,CPTE which stands for certified penetration Testing Engineer.,355,359
+206,"Pertaining to which field, does CEH exam verify our knowledge?",CEH exam is a multiple choice exam which verifies your knowledge pertaining to the penetration testing structure and the tools used within that structure.,370,378
+206,What is the first objective of CEH exam?,The first objective is to inform the public that credentialed individuals meet or exceed the minimum standards of ethical hacking.,418,426
+206,What is sniffing?,Sniffing is the process of monitoring and capturing all the packets passing through a given network using sniffing tools it is a form of tapping phone wires and getting to know about the conversation happening over the network.,523,536
+206,Why should an ethical hacker have an in-depth knowledge of the working of operating systems?,Ethical hackers have to deal with different kinds of operating systems on a daily basis with Linux being the daily driver. So it is obvious that an ethical hacker needs to have an in-depth knowledge of the working of operating systems in general. For example they need to know how to look for exploits in the in the buffer vulnerabilities.,555,574
+206,What are the top secret intelligence gathering agencies an ethical hacker gets a chance to work at?,You also get a chance to work for the top secret intelligence gathering agencies like CIA Mossad and NSA.,710,716
+207,What does a LAN comprise?,It comprises of cables gateways switches routers and additional parts that allow these devices to connect to private servers cloud services and other lands via larger Networks.,82,93
+207,What are the benefits of a LAN?,"They may access and even control one another, exchange files, print to shared printers and utilize a single internet connection.",123,131
+207,What is an IP address?,An IP address is a lengthy string of digits allocated to any device connected to a network that utilizes Internet Protocol as the communication medium.,161,169
+207,What is a switch?,A network switch joints devices in a network such as computers printers wireless access funds and allows them to communicate with each other by exchanging data packets.,255,264
+207,How can we differentiate between the devices usinng IP addresses and MAC addresses?,Based on the type of switches employed they can either differentiate between network devices using either the IP addresses or Mac addresses.,291,298
+207,How can the local networks communicate with the other networks?,A router at the Forefront of every network setup to facilitate communication between foreign Networks. This router can then be used to connect to the Internet so we can communicate with the loved ones from the comfort of our own homes.,315,328
+207,What is a router and explain its working?,The router is a physical or virtualized Internet working equipment that receives analyzes and transfers data packets across computer networks. The router checks and data packets destination IP address and utilizes headers and forwarding tables to determine the best path to transport the packet.,332,349
+207,What is the IP address of a router called?,Network Gateway,399,403
+207,What is subnet and how does it help?,All these IP addresses must belong to a particular range of addresses which are often known as the subnet or sub Network and which help determine the overall range of a local area network.,420,430
+207,What is wide area network?,A collection of local area networks for any other networks that interact with one another. It is essentially a network of networks with internet serving as the world's biggest one.,490,500
+207,What is Network Adress Translation also called?,Nat IP allocation,517,518
+207,What is a network address translation?,A method of translating one IP address to another while these packets are in transit through a router.,519,526
+207,What is a firewall?,A firewall is a type of network security device that analyzes the incoming and outgoing networking traffic and allows organized data packets depending on a set of security rules.,567,577
+207,What does DMZ stand for?,A Demilitarized zone.,620,621
+207,What is port forwarding?,A method of granting external devices access to computers on private networks. It accomplishes this by translating an external IP address and port to an internal IP address and port.,662,672
+401,Which is the OSI Model's topmost layer?,Application Layer,77,79
+401,What are Network Applications?,Computer applictions that uses internet,84,88
+401,For Emails which protocol is used?,SMTP,141,144
+401,What is data Compression?,Bit reduction process is called data Compression,184,188
+401,What does a segment contain?,"It contains sequence number, port number and data unit",395,400
+401,What is path determination?,Selecting the best path for data delivery from source to destination,660,671
+401,What kind of protocol used by web browsers to do web surfing?,Chrome and firefox uses HTTP ans HTTPs application layer protocol for web surfing,101,105
+401,what are the Network services whose basis are formed by application layer protocols?,"File transfer, Web Surfing, Emails, Virtual Terminals, etc",127,132
+401,For Virtual Teminals which protocol is used?,Telenet,144,146
+401,What are the parts covered by Transport layer,"Transport layer involves Segementation, flow control, error conrol, Connection oriented and connectionless transmission",536,543
+402,Which is the most widely used protocol in web server club?,HTTP(Hyper Text Transfer Protocol),155,161
+402,What is a web resource?,a document like an HTML document or a PDF Document or a Json Document or an XML file or any kind of document which is hosted by a web server,190,204
+402,What is the use of FTP?,FTP Protocol is used for transferring files,149,153
+402,What are the two types of Web Documents?,resource could be either static or dynamic,216,219
+402,what is an example of Request-Response type of Protocol?,HTTP protocol is basically a request response protocol,353,357
+402,What is a web server?,A web server is actually a network application running on some machine listening on a port,49,54
+402,Web browsers are also known as?,the browser is actually called a web client or more formally a user agent,55,62
+402,What is protocol?,In computer science when two applications are communicating they use same set of rules called protocols,118,128
+402,How are the documents accessed by web client?,web client can access those documents through web servers.,207,213
+402,What is a web app?,a web application is a piece of software which can be accessed from a browser,14,20
+402,What is called a web application?,a web application is a piece of software which can be accessed from a browser,14,20
+402,HTTP Protocol is also called as?,HTTP protocol is also called stateless protocol,442,446
+404,What does VPN Stand for?,VPN stands for Virtual Private Network,17,20
+404,What type of VPN is always active?,site-to-site vpn,110,112
+404,What does Remote Access VPN do?,a remote access VPN Grants Access to the Corporate Network but only to one device,154,160
+404,What are the Site-to-Site VPNs Configured on?,Site to site VPNs are typically configured either on a Router or a Firewall on both sites ,188,194
+404,What is Popular Site-to-Site VPN type ?,A popular site to site VPN is IPSEC,195,198
+404,TLS is used for which type of VPN?,TLS is usually used for Remote Access VPNs,400,403
+404,when configuring remote access VPNs what do you need to decide?,when configuring remote access VPNs you need to decide if you want to use something called a Full tunnel or a Split tunnels,423,430
+404,What is the Job of VPN?,Its job is to ensure the safe delivery of data across public networks,21,26
+404,what is IPSEC?,"IPsec is a framework or set of rules for creating VPNs over network, it does not define any one way to create VPN but rather allow several protocols to be used for each VPN",198,212
+404,where is IPsec used?,IPsec is often used for site-to-site VPNs but it can also be used for remote access VPNs as well,213,220
+405,how does two computers connected via LAN Cable share data?,two computers connected via LAN Cable sharing data with help of  Network Interface Card,66,72
+405,Which Alternative to TCP is widely used?,alternative to TCP is UDP,126,129
+405,What does UDP Stands for?,"UDP, it stands for User Datagram Protocol",129,131
+405,what is the feautre of TCP with respect to relaibility and speed?,TCP is Highly Reliable and Slow,135,137
+405,what is the main difference between TCP and UDP,The main difference is that TCP is Highly Reliable and Slow whereas UDP is less reliable but generally faster,133,141
+405,on what factors does signal generated by physical layer depends?,The signal generated by the physical layer depends on the type of media used to connect two devices,270,277
+405,what are the Three Cables which is used in Ethernet Physical layer Protocol?,"if the protocol used is Ethernet then Twisted Pair Cable, Coaxial Cable and Fiber Optic Cable can be used for data transmission",288,296
+405,what are the two responsibilities of MAC Sublayer?,The MAC sublayer is responsible for Data Encapsulation and Accessing the Media,325,330
+405,what does a Trailer contain?,the trailer contains 4 bytes of Error Checking Data,342,344
+405,what is the use of trailer,the trailer contains 4 bytes of Error Checking Data used to detect errors in the recieved ethernet frame,342,348
+405,What is MAC Address?,it is a Unique 6 byte address embedded in Network interface card of a device by its manufacturer,350,357
+405,what does LLC Sublayer offers?,it offers Flow Control and Error Control,412,415
+405,what does a flow control do?,flow control is a technique that restricts the amount of data that a sender can send without overwhelming the reciever ,415,422
+405,What does Error Control refer do?,Error control in data link layer primarily referes to Error Detection and Retransmission,448,453
+406,What is the objective of multiprogramming?,"The objective of multiprogramming is to have some process running all the time, to maximize CPU Utilixation",45,52
+406,WHat is the objective of time sharing?,The objective of time sharing is to switch CPU among processes so frequently that users can interact with each program while it is running,122,130
+406,What does a process scheduler do?,it selects the available process from the set of available processes that we have for program execution on CPU,238,247
+406,How many running process can a single process system have?,"for a single-processor system, there will never be more than one process running",303,306
+406,how many kinds of scheduling queues do we have?,there are two kinds of queues,347,350
+406,what are the two kinds of scheduling queues,there are two kinds of queues which are job queue and ready queue,347,352
+406,What is a job queue?,"as process enters the system they are put ito a job queue , which consists of all process in the system",355,363
+406,What is a ready queue?,the process that are residing in main memory and are ready ana waiting to execute are kept on in a list called the ready queue,392,400
+406,where will the process goes when it needs to use some input/output devices,"It will go to the input/output waiting queue, where it will wait for input/output operation to occur, which is required by the particular process",574,584
+406,What happens to the previously executing process when high priority process comes?,the process that was previously executing it will get swapped out and it goes to a list called the partially executed swapped-out processes,506,515
+407,Why is complier used?,it helps to convert the program into machine code which is understandable by your machine,76,82
+407,Where does operating system helps?,operating system will help in loading that executable program into the memory and allocate its resources and then the program will begin its execution,117,127
+407,How does an operating system help?,operating system will help in loading that executable program into the memory and allocate its resources and then the program will begin its execution,117,127
+407,What is a passive entity?,a program which is written and is ready fo execution but till that time it is just a passive entity,131,136
+407,what is a process?,A process can be thought of as a program in execution,147,151
+407,what is a thread?,a thread is the unit of execution within process,199,202
+407,how many threads can a process have?,a process can have anywhere from just one thread to many threads,202,206
+407,where can you see the processes which are in execution in your system?,"if you want to see the processes which are in execution in your system, you can see it by using your task manager in your windows",267,273
+407,to which format should we convert the program?,machine code,78,80
+407,What does it need for a program to execute?,for a program it needs some resources of the computer system,103,107
+407,What does a program need to execute?,for a program it needs some resources of the computer system,103,107
+407,Who allocates the resources in a computer system?,it is the operating system,110,115
+407,How is a complier helpful?,it helps to convert the program into machine code which is understandable by your machine,76,82
+407,What is a compiler?,it helps to convert the program into machine code which is understandable by your machine,76,82

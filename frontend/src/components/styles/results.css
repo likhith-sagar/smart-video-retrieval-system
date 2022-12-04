@@ -1,0 +1,37 @@
+.results .layout{
+    /* background: red; */
+    /* padding: 20px; */
+    /* padding-bottom: 10px; */
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 5px #555; */
+    opacity: 0;
+    animation: reveal 0.2s ease-in 0s 1 forwards;
+}
+
+.results .layout .col-1{
+    width: 70%;
+    /* min-height: 500px; */
+}
+
+.results .layout .col-2{
+    width: 30%;
+    /* min-height: 500px; */
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+@keyframes reveal {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

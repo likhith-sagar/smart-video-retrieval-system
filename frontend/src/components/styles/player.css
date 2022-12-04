@@ -1,0 +1,96 @@
+.player .video-box{
+    /* background: #eee; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0px;
+}
+.player .video-details{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.player .video-details .name{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    width: 50%;
+}
+.player .video-details .others{
+    width: 50%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+    color: #999;
+}
+
+.player .video-box video{
+    border-radius: 10px;
+    width: 100%;
+    min-width: 300px;
+    box-shadow: 0px 0px 5px #ccc;
+    aspect-ratio: 16 / 9;
+    margin: 5px;
+    outline: none;
+    border: none;
+}
+
+.player .answer-box{
+    border-radius: 5px 0px 5px 5px;
+    min-height: 200px;
+}
+.player .answer-box .heading{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    padding: 5px 20px;
+}
+.player .answer-box .ans-list{
+    padding: 5px;
+}
+.player .answer-box .ans-card{
+    border: 2px solid #aaa;
+    border-bottom: 0px;
+    /* margin-bottom: 5px; */
+    /* border-radius: 5px; */
+    display: flex;
+    flex-direction: column;
+}
+.player .answer-box .ans-card:first-child{
+    border-radius: 5px 5px 0px 0px;
+}
+.player .answer-box .ans-card:last-child{
+    border-bottom: 2px solid #aaa;
+    border-radius: 0px 0px 5px 5px;
+}
+.player .answer-box .ans-card .answer{
+    text-align: left;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+.player .answer-box .ans-card .meta{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 12px;
+    color: #999;
+}
+.player  button{
+    background: #333;
+    color: #fff;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.player  button:hover{
+    transform: scale(1.05);
+}

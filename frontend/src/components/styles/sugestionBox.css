@@ -1,0 +1,62 @@
+.sugestion-box{
+    /* background: #eee; */
+    margin: 5px auto;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 5px #ccc;
+    /* border: 2px solid #ccc; */
+}
+
+.sugestion-box .heading{
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sugestion-box .list {
+    padding: 10px 20px;
+}
+
+.sugestion-box .list .video-card{
+    width: 100%;
+    background: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #aaa;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sugestion-box .list .video-card .thumbnail{
+    width: 60%;
+}
+.sugestion-box .list .video-card .details{
+    width: 40%;
+    text-align: left;
+    padding: 5px 10px;
+}
+.sugestion-box .list .video-card .details .name{
+    font-size: 16px;
+    font-weight: 500;
+}
+.sugestion-box .list .video-card .details .others{
+    font-size: 12px;
+    font-weight: 500;
+    color: #777;
+}
+
+.sugestion-box .list .video-card .thumbnail img{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 5px;
+    border: 1px solid #777;
+}
+
+.sugestion-box .list .video-card:hover{
+    transform: scale(1.02);
+    background-color: #ddd;
+}

@@ -1,0 +1,548 @@
+Video_ID,Question,Start_timestamp
+101,What is authentication?,28
+101,What is Keystone?,54
+101,What is a project in Keystone?,80
+101,What is the fundamental purpose of the keystone?,92
+101,What does assigning role to a user or user groups on a project denote?,113
+101,What is a domain?,137
+101,What do you mean by actors?,196
+101,What is a collection of users called?,206
+101,What are groups?,206
+101,Who are users?,210
+101,Who are actors?,214
+101,What are groups and actors collected referred to as?,214
+101,To which entities is a role assigned?,214
+101,What is a role?,248
+101,What is an assignment?,256
+101,What are targets?,279
+101,What are the projects and domains collectively referred to as?,301
+101,Explain the similarity between projects and domains.,279
+101,What is a token?,317
+101,When does the user receive a token?,342
+101,What is the significance of an id and payload in a token?,359
+101,What does a token consists of?,355
+101,What is a catalogue?,374
+101,What does a catalogue contain?,379
+101,What do you mean by identity?,420
+101,Name some locations from which the identities in the cloud come from?,428
+101,What are the advantages of using SQL Identity?,489
+101,What are the cons of using SQL Identity?,501
+101,What do you mean by LDAP?,540
+101,What are the advantages of LDAP Identity?,571
+101,What are the disadvantages of LDAP identity?,588
+101,What are multiple backends?,621
+101,What are Identity providers?,709
+101,What are the advantages of LDAP Provider approach?,756
+101,What are the diadvantages of LDAP provider?,790
+101,What are the two most common ways to authenticate with the Keystone service?,807
+101,Why is proper scoping necessary to determine which user is authenticating in a multi-domain deployment?,877
+101,Why is scope section used often even though it is optional?,892
+101,Expand RBAC.,975
+101,Why is Keystone essential to OpenStack?,961
+101,What  is access management and authorization?,961
+101,How does Keystone solve the problem of managing access and authorizing what API's a user can use?,972
+101,Name the disk on which RBAC policy is stored?,985
+101,What does the green portions indicate?,1038
+102,Whata are the difficulties in a distributed environment?,9
+102,What issues does zookeeper solve?,9
+102,Where was the zookeeper framework originally built?,48
+102,Why was the zookeeper framework originally built?,48
+102,Why does Apache Hbase use zookeeper?,63
+102,What is Apache zookeeper?,68
+102,What are some of the features of Apache zookeeper?,96
+102,What is the naming service feature of Apache zookeeper?,139
+102,What are the key objectives of Apache zookeeper?,154
+102,What is the only difference between apache zookeeper and distributed file system pertaining to heirarchal namespace?,192
+102,How does Zookeeper ensure reliability?,224
+102,When can not we delete a znode?,259
+102,When does the update of the data fail?,267
+102,What does the znode comprise of?,289
+102,How many types of znodes are there?,307
+102,What are the two types of znodes?,307
+102,What are the features of persistent znodes?,314
+102,What are the features of ephemeral znodes?,325
+102,Explain the difference between persistent and ephemeral znodes.,314
+102,Which znodes are used to detect the termination of a client?,325
+102,Can the type of a znode specified during its creation be changed later?,346
+102,What are some of the highloghts of the data model?,356
+102,Explain the architecture of zookeeper.,392
+102,What are stored in a persistent store?,425
+102,To how many zookeeper servers can a client be connected to?,441
+102,What connection is maintained between a client and a zookeeper server?,441
+102,What does zookeeper implement to achieve distributed synchronization?,479
+102,Explain Zookeeper Atomic Broadcast protocol.,490
+102,What is the use of zookeeper transaction Id?,469
+102,What are the API calls that zookeeper support?,529
+102,"Eplain the working of reads, writes and watches in zookeeper.",509
+102,Explain the zookeeper working using an example.,559
+103,What does Amazon S3 stand for?,31
+103,What is the use of Amazon S3?,31
+103,What are the operations provided by REST API?,56
+103,How can the files on Amazon S3 be accessed?,56
+103,What are files called in S3?,99
+103,How are objects referred in S3?,105
+103,Where are objects stored in S3?,197
+103,How can the user ensure security of their S3 data?,271
+103,Name the NoSQL database provided by Amazon.,448
+103,What are the key aspects of DynamoDB?,481
+103,Why is a partition key used?,496
+103,What level consistency is supported in dynamoDB and RDBMS respectively?,522
+103,Is join between tables supported by DynamoDB?,556
+103,What is item in DynamoDb analogous o in Relational Database?,579
+103,What is the analogous in DynamoDB to tuple in Relational Database?,579
+103,"In addition to a partition key in DynamoDb, which key can be optionally specified?",635
+103,What are secondary indexes?,651
+103,Where is a particular partition stored?,691
+103,Which key is mandatory between the primary key and sort key?,780
+103,How many replicas of a partition is maintained?,855
+103,Exaplain the flexibility of Amazon Relational database Service?,873
+103,What do you mean by encrypted address?,966
+104,What is the necessity for an election?,36
+104,What is election?,125
+104,What happen when leader fails or crashes?,152
+104,What are the goals of an election algorithm?,168
+104,Explain system model.,191
+104,What is an initiator?,240
+104,What is the process which starts an election called?,240
+104,What are the properties of a leader election problem?,267
+104,Explain safety property of leader lection problem.,275
+104,Explain liveness property of leader lection problem.,298
+104,On what basis is a process elected as a leader at the end of the election protocol?,329
+104,Explain ring election algorithm.,365
+104,In which direction are the messages sent in the ring election algorithm?,392
+104,Which process initiates an election message?,418
+104,When does the process forward the message and overwrite the message respectively in a ring election algorithm?,461
+104,What  is the worst case scenario message complexity in ring leader election algorithm?,761
+104,What happens if there are failures during the election run?,822
+104,Explain the modified ring election algorithm.,989
+104,What are concurrent elections?,1156
+104,"If the initiator is non-faulty, what is the message complexity and size of messages in the modified ring election algoritm?",1167
+104,In which algorithm are the processes arranged in a logical ring?,952
+104,When should we modify the ring election algorithm?,977
+105,What was the vision of grid computing?,5
+105,What are the features of a grid?,60
+105,Explain Virtual Organization with an example.,190
+105,What are the benefits of virtual organisations?,355
+105,Explain load balancing in Virtual Organization.,374
+105,What are the two different types of grids?,390
+105,What is a data grid?,397
+105,What is a compute grid?,413
+105,What is the job of a resouce broker in a grid environment?,437
+105,Explain the grid environemnt in detail.,430
+105,What is application layer in data grid architecture?,504
+105,What is collective app in data grid architecture?,509
+105,What is collective generic in data grid architecture?,526
+105,"Explain the functions of resource, connect and fabric in data grid architecture?",534
+105,Which is the critical function in the data grid architecture?,534
+105,Explain the data grid architecture in detail.,504
+105,What manages the grid?,563
+105,Why is grid ware or middleware not used at present?,568
+105,Give some examples of middleware.,577
+105,Give the differences between grid computing and cloud computing.,602
+105,Which is more scalable in between grid and cloud computing?,602
+105,Which is more flexible in between grid and cloud computing?,608
+105,On which mode does cloud computing operate?,612
+105,Which operates on client server mode?,612
+105,Which operates on a distrbuted computing mode?,618
+105,On which mode does grid computing operate?,618
+105,Which has centralized management in between grid and cloud computing?,622
+105,Which is service oriented in between grid and cloud computing?,629
+105,Which is application oriented in between grid and cloud computing?,633
+201,Why is the election problem so hard?,12
+201,What does the process do when it recieves an election message?,248
+201,What does the consensus algorithm aim at?,15
+201,"If we solved election problem, what could be solved easily?",27
+201,"In which system, is the consensus impossible to solve?",48
+201,Which problem if solved can the consensus be solved easily?,27
+201,How can a process find the failure if a leader or coordinator?,64
+201,When and how does a process elect itself as a leader?,90
+201,When and how does a process elect itself as a new bully?,115
+201,Whom does the pocess send an election message to?,182
+201,What happens when none of the processes answer within the timeout?,207
+201,What does a process do when it receives an election message?,248
+201,What is the worst case scenario time for the bully algorithm?,648
+201,When does the worst case scenario happen?,667
+201,When does the best case scenario happen?,792
+201,What is the completion time for the best case scenario?,821
+201,What are the total number of messages sent in the best case?,825
+201,What are the various algorithms discussed?,859
+202,Why are most applications moving to the cloud in today's world?,28
+202,What is the matter of concern for the applications hosted on cloud?,48
+202,What is Cloud Security?,66
+202,What are the various methods of providing cloud security?,86
+202,How is the cloud infrastructure partitioned at a high level?,116
+202,What are the basic objevtives in providing security to the cloud infrastructure/,145
+202,What does the physical cloud infrastructure consist of?,178
+202,What do you mean by physical security?,178
+202,What are the procedures that can be followed for the security of the data centres?,326
+202,What does virtual security mean?,393
+202,Briefly describe the working of Network Time Protocol (NTP)?,456
+202,"What is the foundation for achieving confidentiality, integrity and availability of the cloud data?",533
+202,What are some of the requirements for identity management?,552
+202,What is the core function of access management?,668
+202,What is the key technology to ensure isolation of access in a cloud with shared storage?,772
+202,What data is collected to monitor events by auditing?,812
+203,Why do we need to rebalance the partitions?,25
+203,What is rebalancing?,147
+203,What are the goals of rebalancing?,174
+203,Explain hash mod N briefly.,352
+203,What is the problem with hash mod N approach?,256
+203,What is the second approach for rebalnacing partitions?,280
+203,Why is moving the entire partition to a new node expensive?,332
+203,Why does the number of partitions remain fixed when a new node is added in fixed numer of partitions strategy?,300
+203,What changes when a new node is added if number of partition remain constant according to fixed number of partitions strategy?,318
+203,Why does most of the databases employ the fixed number of partitions technique?,350
+203,Briefly describe the example of the implementation of the fixed number of partitions strategy?,363
+203,What is the challenge with the fixed number of partitions strategy?,402
+203,What happens to the partition when it grows to exceed a configured size according to the dynamic partitioning strategy?,450
+203,What is the biggest advantange of dynamic partitioning strategy?,508
+203,Which strategy is ideal for both key range partitioning and hash partitioning?,527
+203,What are the number of partitions and size of a partition proportional to in dynamic partitioning strategy and fixed number of partitions strategy respectively?,542
+203,What is Akamai?,656
+204,Which was the biggest casualty of the outage?,168
+204,What is meant by risk?,209
+204,What is risk management?,235
+204,What are the factors to be considered for managing risks?,250
+204,What do you mean by security control?,304
+204,What are the three categories of security control?,313
+204,What is security breach?,380
+204,Define moderate-impact systems and give examples.,412
+204,How is the security requirement of the system classified?,358
+204,Which systems have the greatest requirement in terms of security control?,389
+204,What are low-impact systems?,427
+204,What are the perspectives based on which each information resource in the organization is evaluated?,477
+204,Explain whitelisting the IP addresses.,570
+204,What must be done once the risks are identified?,658
+204,Which type of security control is whitelisting IP addresses?,689
+204,What is to be done once the security controls are implemented?,700
+204,What is the need for review of the security controls?,724
+204,What are the four security design patterns?,784
+204,What is a honeypot?,877
+204,Where are honey pots widely used?,906
+204,What are design patterns?,768
+204,Explain sanboxing.,936
+204,Name systems that come with sandbox environment.,982
+204,What are the security features offered by the VM?,1041
+204,Expand CMDB.,1080
+204,What is CMDB?,1095
+204,What is Common Management Database commonly abbreviated as?,1080
+204,Why is a CMDB essential in the cloud infrastructure?,1127
+204,What are the two entry points into the cloud network shown in the figure?,1207
+204,How is the internal network access done?,1265
+204,How can the database itself be secured in a PAAS system?,1363
+204,Who has to manage the database server in a PAAS system?,1326
+205,What are some of the key terms to describe cloud computing?,21
+205,What are the shared pool of resources?,51
+205,What are the types of cloud computing model?,71
+205,Which computers are mostly present in the data centers?,182
+205,Explain virtualisation technology.,222
+205,Name the technologies that enable cloud computing.,302
+205,What are checkpoints?,396
+205,What are the web technologies used in cloud computing?,406
+205,Which cloud computing model has lesser automation and higher flexibility?,490
+205,What is IaaS?,508
+205,Which has more automation and higher flexibility in between IaaS and PaaS?,768
+205,Explain Software as a Service.,781
+205,Which are the most popular software as a Service available to us and known to us?,917
+205,Which is the most popular CRM application available as Software as a Service?,927
+205,Who controls the hardware in IaaS?,949
+205,What is controlled by the provider in IaaS?,949
+205,What are controlled by the provider and the user respectively in Platform as a Service?,962
+205,What is managed by the provider in Software as a Service? ,1011
+205,Which cloud computing model has higher automation and lesser flexibility or configuration?,469
+301,"If client sends a request and expect a response ,what may go wrong ?",16
+301,what is partial failure ?,57
+301,what makes distributed systems hard to work with ?,85
+301,what are faults,121
+301,what is reliability ?,105
+301,what  are fault tolerant or resilient systems ?,143
+301,what is Mean time between failures ?,177
+301,how is reliability is used ?,205
+301,how failure occurs in system ?,225
+301,How can be faults classified as?,277
+301,what is permanent fault ?,261
+301,what are different types of failures ?,292
+301,what is Omission failure ?,309
+301,what is timing failure ?,324
+301,what is arbitrary failure ?,363
+301,what is difference between fault and failure ?,383
+301,what are the ways in which we can detect fault ?,409
+301,what is unbounded delay ?,475
+301,what happens in network congestion ?,539
+301,how does virualized enviroment influence  the delay ?,561
+301,how does TCP consider packet to be lost ?,645
+301,how to choose timeouts experimentally ?,711
+301,how faut detection happens with respect to synchronous and asynchronous network ?,792
+301,what is downside of multi tenancy with dynamic  resource partitioning ?,921
+301,what are three common failure models ?,968
+301,what are crash stop faults ? ,980
+301,what are crash recovery faults ?,1009
+301,what are Byzantine faults ?,1025
+301,what is heartbeat strategy for failure dectection  in distributed system ? ,1085
+301,what is ring heartbeat?,1151
+301,what is centralized heartbeat ?,1142
+301,what happens in all to all heartbeat strategy ?,1184
+301,what do we mean by Byzantine Fault tolerant ?,1238
+301,what is failover architecture ?,1328
+301,what is active active architecture ?,1367
+301,what is active passive architecture ?,1452
+302,what is difference between synchronous and asynchronous systems ?,13
+302,what does asynchronous man in terms of process ?,37
+302,why consesnus is not solvable in asynchronous systems ?,53
+302,what is consensus ?,100
+302,what is consensus formally ?,186
+302,what are some constraints for consensus ?,280
+302,what is non triviality in consensus ?,323
+302,why is consensus problem important ?,374
+302,what is paxos algorithm example ?,457
+302,what is paxos protocol ?,771
+303,what is replication ?,13
+303,why do we need to replicate partitions ?,33
+303,what are three approaches for implementing replication ?,120
+303,what is leader based replication ?,161
+303,how can leader replication be implemented ?,362
+303,what happens in asynchronous replication ?,379
+303,what happens if either leader or follower fail ?,452
+303,what happens if leader fails ?,530
+303,what are some implementation modes for replicating the leader ?,594
+303,what is trigger based replication ?,697
+303,what is replication lag ?,772
+303,what is eventual consistency ?,763
+303,what is read after write consistency check ?,877
+303,what are some solutions to address to take care for replication lag ?,923
+303,how do we use monotonic reads to solve replication lag ?,998
+303,how do we use consisten prefix reads to solve replication lag ?,1008
+303,how do we use  distributed transactions to solve replication lag ?,1029
+304,what are task scheduling algorithms ?,54
+304,what are categories of task scheduling algorithms ?,135
+304,what is batch scheduling ?,152
+304,what is immediate scheduling ?,196
+304,what is static scheduling ?,228
+304,what is dynamic scheduling ?,259
+304,what is preemptive scheduling ?,271
+304,what is non preemptive scheduling ?,361
+304,how do we assign the tasks to multiple VMs ?,424
+304,task scheduling system in cloud  passes through which three levels ?,433
+304,what is FCFS static algorithm ?,492
+304,what are some advantages of FCFS ?,930
+304,what are some disadvantages of FCFS ?,951
+304,what is SJF algorithm ?,987
+304,what are some advantages of  SJF ?,1204
+304,what are some disadvantages of SJF ?,1215
+304,what is MAX MIN algorithm ?,1254
+304,what are some advantages of  MAX MIN ?,1641
+304,what are some disadvantages of MAX MIN ?,1659
+305,why do technology challenges occur ?,44
+305,what is scale out ?,249
+305,what is scale up ?,255
+305,what is Elasticity ?,283
+305,what is performance unpredictability ?,361
+305,what is reliability ?,378
+305,which document in india talks about privacy rules ?,492
+305,what is compliance to ensure data is private ?,572
+305,what has government of India mandated about financial transactions ?,588
+305,what is multitenancy ?,634
+305,what is interoperability ?,700
+305,what  is portability ?,737
+305,why do systems fail ?,838
+305,what is availability ?,881
+305,what is failure detection ?,914
+305,what is application recovery ?,925
+305,what are two modes of failure detection ?,944
+305,what is heartbeat ?,948
+305,what are ping method ?,1002
+305,what is redirection affter failure has been detected ?,1068
+305,"if cloud are used by only one institute ,what is it called ?",1193
+305,"if cloud are used by multiple organizations ,what is it called ?",1198
+305,what is hybrid cloud ?,1207
+401,What is System  Availablity?,22
+401,How is System availability is expressed?,32
+401,What is uptime?,53
+401,What is downtime?,79
+401,How is uptime and downtime helpful?,146
+401,What happens when the size of distributed system is increased?,181
+401,How should the clusters be designed?,210
+401,What is failover capability?,219
+401,What is grid?,270
+401,How is system availability estimated?,303
+401,What is mean time to failure?,309
+401,What is mean time to repair?,319
+401,When is the system termed as highle available?,328
+401,What is High availability?,416
+401,What is a fault tolerant system ?,449
+401,what are the important considerations when creating a fault tolerant and high availability systems?,541
+401,What does the backup components ensure?,574
+401,How should the network support be ?,634
+401,How is fault tolerant system designed?,653
+401,What is the tool provided by cloud for fault tolerance,705
+401,why is it suggested to use only asynchronous communications?,797
+401,what is the usage of timeouts?,834
+401,What is intermittent failures?,896
+401,How is circuit breaker used?,950
+401,What is fall back?,1005
+401,how should be the fallback logic?,1044
+401,How should be the throtlling or rate limitting should be configured?,1100
+402,What is leaderless replication?,15
+402,In a leaderless replication what happens when a node is down?,76
+402,How is the read request treated when the write is done?,125
+402,Howto determine if the write is successful or not?,305
+402,Which approach is used to determine if the write is successful or not?,294
+402,What is quorum reads and writes?,334
+402,What is the metrics used for measuring the staleness in leader based replication?,404
+402,How do we measure replication lag?,412
+402,How can we relate replication lag and stale data?,421
+402,in a multidata center sitation how does leaderless replication work?,449
+402,Which nodes are considered by quorum to consider whether a read or write is successful?,459
+402,the replication across the data centers is done synchronously or asynchronously?,469
+402,How do we ensure that writes are not over written?,612
+402,How to ensure that there is a proper isolation?,612
+402,How to control concurrency?,612
+402,What is last write wins?,614
+402,What all things a server maintaince for a given key?,660
+402,What will a server send to a client when a client reads for a given key ?,670
+402,what is an approach for managing version numbers?,725
+402,What is version vector?,773
+402,What happens if the merge happens correctly?,810
+403,What  are the information stored in a Catalog?,54
+403,What is the first approach of request routing?,100
+403,What is the second approach of request routing?,156
+403,What is the third approach of request routing?,200
+403,what is the challenge in first approach of request routing?,146
+403,What do we use for the second approach of rquest routing?,158
+403,what does a routing tier do ?,170
+403,what does a zookeeper do?,249
+403,How does the chord circle arrange the nodes?,388
+403,How can client use the catalog?,281
+403,what are some tools which uses the service like zookeeper?,338
+403,In clustered environment which tool uses the zookeeper service?,354
+403,Who uses gossip protocol?,365
+404,What is SSE CMM?,102
+404,Where is SSE CMM used?,116
+404,What does SSE CMM define?,141
+404,What is ISO IEC 27001 to 27006 family?,170
+404,What is ENISA?,233
+404,What is ENISA dedicated to ?,250
+404,How does ENISA work ?,257
+404,What does ITIL Security management describes?,300
+404,What does COBIT stands for?,351
+404,What is COBIT?,370
+404,WHat is NIST's Mission?,422
+404,Whom does NIST Assist?,439
+404,What is third party vendor?,590
+404,WHat is a commaon example of third party on cloud ?,607
+404,What is external upgradation?,736
+404,What does an enterprise have to ensure?,770
+404,How do you specify contract termination?,809
+404,What does privacy laws states?,885
+404,What is business continuity planning?,994
+404,What is business disaster recovery?,1004
+404,what is the difference between business  continuiity ans disaster recovery?,1016
+404,What is security breach?,1193
+404,What does Litigation involves?,1258
+405,What are the four components of cloud architecture?,35
+405,What is cloud architecture?,65
+405,What is a frontend?,86
+405,What does a browser do?,94
+405,what does a backend contain?,114
+405,What are the things to which a backend must take care?,139
+405,what are the types of application?,196
+405,how many types of applications are there?,196
+405,what are the services provided by cloud?,227
+405,how are the humongous amount of data stored?,262
+405,in how many forms the humongous amount of data are stored?,262
+405,what does a management talk about?,370
+405,how does the virtual machines behave?,481
+405,What happens in cloud management service?,577
+405,what does an entire stack consists of?,655
+501,What does a quorum involve?,35
+501,why do we go for the lockes in the distributed environment?,86
+501,what does a mutual exclusion do?,142
+501,In traditional operating systems what leads to a dead lock condition?,151
+501,How are the resource deadlocks prevented?,185
+501,What are failovers?,218
+501,"When a failover are triggered, what happens exactly?",228
+501,What are the different types of distributed locks?,249
+501,What is optimistic lock?,255
+501,What is pessimistic lock?,271
+501,When many microservices are accessing the database who manages the resources?,366
+501,What does a lock manager do?,366
+501,What does a client have to do when he has to update a file in a shared storage ?,431
+501,What is a fencing token?,586
+501,How is the locking mechanism implemented?,681
+501,What is a distributed lock manager?,681
+501,what does a distributed lock manager provide?,693
+501,what does a distributed lock manager use?,702
+501,How can a DLM be implemented?,724
+501,What is Redis?,734
+501,Where is Redis used?,739
+502,What are distributed systems?,28
+502,From the distribution perspective what are the different models?,47
+502,What kind of roles do the enitities have in a master slave architecture?,62
+502,What kind of roles do the enitities have in a peer to peer architecture?,81
+502,What are the characteristics of master slave architecture?,87
+502,Client server architecture can also be referred as?,174
+502,How does a client server architecture works?,186
+502,what is three tier architecture?,309
+502,What do we mean by improved data sharing in terms of client server architecture?,377
+502,what can be the disadvantages of the client server architecture?,507
+502,what is peer to peer architecture?,563
+502,What are the characteristics of peer to peer architecture?,624
+502,what are the differences between master slave architecture and peer to peer architecture?,633
+502,How can peers interact?,691
+502,What are the advantages of P2P Computing?,728
+502,What are the disadvantages of P2P Computing?,802
+502,Where p2p computing applications are used?,865
+502,what is p2p file sharing?,888
+502,What is napster?,991
+502,What is fasttrack,1022
+502,where are the process sharing applications used?,1039
+502,What is SETI?,1061
+502,What is folding home?,1085
+502,What do we mean by centralised topology?,1209
+503,What is a proxy server?,39
+503,where does a proxy server resides?,107
+503,how are the reverse proxy managed?,262
+503,what is the main purpose of proxy servers?,115
+503,what are the different types of proxy servers?,157
+503,what is a gateway?,174
+503,what is a forward proxy?,183
+503,what is a reverse proxy?,230
+503,where does a reverse proxy sit?,205
+503,what are the roles played by reverse proxies?,284
+503,what are some examples of reverse proxy?,393
+503,what does a proxy server prevents?,432
+503,what are the steps invovled in operating reverse proxy?,443
+503,what are the alternate names by which forward proxies are called?,469
+503,what does a forward proxy provide?,478
+503,what does a forward proxy keeps track of?,572
+503,how does a forward server acts?,582
+503,where are the proxy servers used ideally?,594
+503,why one would like to use forward proxy?,615
+503,what are the benefits of reverse proxy?,755
+503,what is nginix?,778
+503,how does a nginix proxy server works?,821
+504,what are the types of disks in which we can store data?,43
+504,what all do we have in a magnetic disk?,54
+504,what all do we have in a solid state disk?,62
+504,how does read or write happen in a magnetic disk?,80
+504,what is seek latency?,117
+504,what is rotational latency?,132
+504,what is transfer latency?,144
+504,what is direct attached storage?,214
+504,what is network attached storage?,260
+504,what is the big difference between a NAS and a SAN,303
+504,what is RAID,370
+504,what is stripping?,428
+504,what are v nodes?,680
+504,what is a block?,711
+504,what is storage virtualization ?,789
+504,what are the categories of storage virtualization?,922
+504,what do we do in block level virtualization?,976
+504,what is file virtualization?,1009
+504,what is distributed file system?,1125
+504,what do we have in a centralized metadata scheme ?,1261
+504,what is lustre ?,1308
+504,what is gluster file system?,1455
+504,what is a brick?,1540
+504,Block level virtualization can me done in how many levels?,1658
+504,what are the different levels in block level storage virtualization?,1658
